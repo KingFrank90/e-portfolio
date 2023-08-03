@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.logo .brand{
+    text-decoration: none;
+}
+.big-container{
+    padding:1.7rem 0 2rem;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: rgb(0, 17, 17);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    position:relative;
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+    padding:0 3rem;
+    z-index: 10;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo h2{
+    font-size: 2.3rem;
+    line-height: 2;
+    font-weight: 700;
+    color: blue;
+}
+
+.logo img{
+    width:40px;
+    margin-right: .2rem;
+    
+    border-radius: 50%;
+}
+
+
+.links ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.links a{
+    color: blue;
+    margin-left: 4rem;
+    display: inline-block;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.links a:hover{
+    color:royalblue;
+    transform: scale(1.10);
+}
+.main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.main .main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.main-left h3{
+    color: aquamarine;
+}
+
+.intro{
+    font-size: 1.4rem;
+    color: blue;
+    text-transform: capitalize;
+    line-height: 1.4; 
+}
+.text{
+    color: royalblue;
+}
+
+.footer{
+    position:relative;
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+    padding:0 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.foot-container{    
+    color: blue;    
+}
+
+.message-form label{
+    width: 180px;
+    display: inline-block ;
+    margin-bottom: 10px;
+    color: mediumslateblue;
+    margin-left: 50px;
+    vertical-align:top;
+}
+#send{
+    margin-top: 20px;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.icons-container .bi{
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    color: mediumblue;
+}
+.icons-container{
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+.main-right h5{
+    color: white;
+    text-align: center;
+}
+.card-section{
+    position:relative;
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+    padding:0 3rem;
+    z-index: 10;
+}
+.card {
+    background: mediumslateblue;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
